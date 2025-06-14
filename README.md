@@ -49,30 +49,50 @@ Herramientas de Desarrollo: Vite (o Create React App), ESLint, Prettier
 Otros: FontAwesome o Heroicons para íconos, npm/yarn para dependencias
 
 📂 Estructura del Proyecto
+
 ├── public/
+
 │   ├── index.html
+
 │   └── favicon.ico
+
 ├── src/
-│   ├── assets/                 # Imágenes y otros recursos estáticos
+
+│   ├── assets/
+# Imágenes y otros recursos  estáticos
 │   ├── components/             # Componentes reutilizables
 │   │   ├── Button.jsx
+
+
 │   │   ├── Card.jsx
+
 │   │   ├── Input.jsx
+
 │   │   └── Navbar.jsx
+
 │   ├── contexts/               # Contextos para estado global
 │   │   └── AuthContext.jsx
+
 │   ├── hooks/                  # Hooks personalizados
 │   │   ├── useAuth.js
+
 │   │   └── useFetch.js
 │   ├── pages/                  # Páginas de la aplicación
+
 │   │   ├── Home.jsx
+
 │   │   ├── Login.jsx
+
 │   │   ├── Register.jsx
 │   │   ├── Products.jsx
 │   │   └── Cart.jsx
+
+
 │   ├── routes/                 # Configuración de rutas
+
 │   │   └── ProtectedRoute.jsx
 │   ├── services/               # Lógica de consumo de API
+
 │   │   └── api.js
 │   ├── App.jsx
 │   ├── main.jsx
